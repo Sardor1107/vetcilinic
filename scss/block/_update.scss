@@ -1,0 +1,134 @@
+.update-section {
+  margin-top: 290px;
+  background-image: url("../../img/update-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 88px;
+  position: relative;
+}
+.update {
+  display: flex;
+  justify-content: space-between;
+}
+.update__content {
+  margin-left: 100px;
+}
+.update__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.update__form {
+  margin-top: 32px;
+  display: flex;
+}
+.update__int {
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  padding-top: 18px;
+  padding-bottom: 12px;
+  padding-left: 22px;
+  border: none;
+  background: #ffffff;
+  border-radius: 5px;
+  max-width: 335px;
+  display: inline-block;
+}
+.update__btn {
+  padding: 15px 52px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  border: none;
+  background: #333333;
+  border-radius: 3px;
+  margin-left: 21px;
+  cursor: pointer;
+}
+.update__btn:hover {
+  background-color: #ffbd54;
+  color: #333333;
+}
+.update__btn:active {
+   opacity: 0.6;
+}
+.update__img {
+  position: absolute;
+  max-width: 613px;
+  top: -135px;
+  right: 0;
+}
+@media only screen and (max-width: 1100px) {
+  .update__img {
+    position: absolute;
+    max-width: 413px;
+    top: -47px;
+    right: 0;
+  }
+  .update-section {
+    margin-top: 200px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .update__img {
+    display: none;
+  }
+  .update-section {
+    margin-top: 150px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .update-section {
+    margin-top: 100px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+  .update__title {
+    font-size: 40px;
+    line-height: 20px;
+  }
+  .update__content {
+    margin: auto;
+    max-width: 600px;
+  }
+  .update__form {
+    max-width: 600px;
+    flex-direction: column;
+  }
+  .update__btn {
+    margin-right: auto;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .update-section {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+  .update__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .update__int {
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    max-width: 275px;
+  }
+  .update__btn {
+    padding: 10px 42px;
+  }
+}

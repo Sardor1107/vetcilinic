@@ -1,0 +1,89 @@
+.clinic-section {
+    margin-top: 200px;
+}
+.clinic {
+    max-width: 1134px;
+    margin: auto;
+    text-align: center;
+    background-image: url("../../img/clinic-left-bg.svg");
+    background-repeat: no-repeat;
+    background-position: 90px 0;
+}
+.clinic__inline {
+    width: 140px;
+    height: 2px;
+    background-color:#DBDBDB;
+    margin: auto;
+}
+.clinic__text-size {
+    padding: 0 100px;
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
+    margin-top: 43px;
+    margin-bottom: 35px;
+    background-image: url("../../img/clinic-right-bg.svg");
+    background-repeat: no-repeat;
+    background-position: right 0 bottom 0;
+}
+.clinic__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #949494;
+   
+}
+.clinic__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #333333;
+    margin: auto;
+    margin-top: 35px;
+}
+@media only screen and (max-width:1070px) {
+    .clinic-section {
+        margin-top: 100px;
+    }
+    .clinic__text-size {
+        padding: 0 100px;
+        max-width: 800px;
+        background-position: right 50px bottom 0;
+    }
+}
+@media only screen and (max-width:860px) {
+    .clinic {
+       background-image: none;
+    }
+    .clinic__text-size {
+        padding: 0 30px;
+        max-width: 700px;
+        background-image: none;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+    .clinic__title {
+        margin-top: 25px;
+    }
+}
+@media only screen and (max-width:660px) {
+    .clinic-section {
+        margin-top: 60px;
+    }
+    .clinic__text-size {
+        padding: 0;
+        max-width: 500px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .clinic__text {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .clinic__title {
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

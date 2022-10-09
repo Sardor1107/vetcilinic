@@ -1,0 +1,188 @@
+
+.head__top {
+    max-width: 1117px;
+    width: 100%;
+    padding-top: 19px;
+    padding-bottom: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+
+}
+.head__style {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+}
+.head__adress::before {
+    content: "";
+    width: 14px;
+    height: 13px;
+    background-image: url("../../img/house-img.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    margin-right: 9px;
+}
+.head__telimg::before {
+    content: "";
+    width: 13px;
+    height: 13px;
+    background-image: url("../../img/phone-img.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    margin-right: 9px;
+}
+.head__telnumber::before {
+    margin: auto;
+    content: "";
+    width: 4px;
+    height: 4px;
+    background-image: url("../../img/Ellipse-img.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    margin-right: 9px;
+    margin-left: 9px;
+}
+.head__telimg:hover {
+    color: #FFBD54;
+}
+.head__telnumber:hover {
+    color: #FFBD54;
+}
+.head__data {
+    display: flex;
+}
+.head__time1::before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    background-image: url("../../img/kalendar-img.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    margin-right: 9px;
+}
+.head__time2 {
+    margin-left: 17px;
+}
+.head__nav {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.head__logo {
+    width: 178px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.head__logo:hover {
+   opacity: 0.8;
+}
+.head__logo:active {
+    opacity: 0.6;
+ }
+.head__list {
+    width: 100%;
+    max-width: 692px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.head__item1::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-image: url("../../img/fish-img.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    margin-right: 12px;
+}
+.head__link:hover {
+    border-bottom: 4px solid #F4FFAD;
+}
+.head__link:active {
+    opacity: 0.6;
+}
+.head__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+}
+.head__linked {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    position: relative;
+}
+.head__linked::before {
+    content: "";
+    width: 23px;
+    height: 21px;
+    background-image: url("../../img/footmark-img.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: -28px;
+}
+.head__menu {
+    display: none;
+    width: 30px;
+    height: 24px;
+}
+@media only screen and (max-width:1200px) {
+    .head__list {
+        margin-left: 160px;
+    }
+}
+@media only screen and (max-width:1100px) {
+    .site-header {
+        margin-top: 20px;
+    }
+    .head__list {
+        margin-left: 160px;
+    }
+    .head__menu {
+        display: block;
+    }
+    .head__menu:hover {
+        opacity: 0.8;
+    }
+    .head__list {
+        display: none; 
+    }
+    .head__top {
+        display: none;
+    }
+    .head__logo {
+        width: 160px;
+    }
+}
+@media only screen and (max-width:660px){
+    .head__linked {
+        display: none;
+    }
+    .head__logo {
+        width: 120px;
+    }
+    .head__nav {
+        position: relative;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+    }
+}
